@@ -23,5 +23,5 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm test -- --strict
+      - run: npm test -- --no-inline-config
   
