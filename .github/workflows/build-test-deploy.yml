@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
+      - run: npm run lint
+      # - run: npm eslint . --fix
       - run: npm test
-    
+
   
