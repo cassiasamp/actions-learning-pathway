@@ -23,8 +23,5 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm run lint-test
-      # - run: npm eslint . --fix
-      # - run: npm test
-
+      - run: npm test -- -CI=true
   
